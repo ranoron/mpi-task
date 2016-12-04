@@ -1,6 +1,8 @@
 /*
  * Encrypt all the strings in a given file.
  */
+ // all the related libraries added
+ 
 #define _GNU_SOURCE
 #include <crypt.h>
 #include <malloc.h>
