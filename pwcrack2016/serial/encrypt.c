@@ -53,10 +53,11 @@ char* encrypt_string(char* password) {
     return crypt(password, SALT);
 }
 
+/*If the user has specified a file on the command line then use that.
+     * Otherwise use the popular password file.*/
+     
 int main(int argc, char **argv) {
-    /* If the user has specified a file on the command line then use that.
-     * Otherwise use the popular password file.
-     */
+   
     char *filename = argc > 1 ? argv[1] : PASSWD_FILE;
     char *line = NULL;
     FILE *fp = open_file(filename);
