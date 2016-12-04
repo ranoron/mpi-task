@@ -42,6 +42,7 @@ void read_line_in_file(FILE* fp, char** line) {
     }
 }
 
+// decript the encripted password 
 
 void decrypt_password(const int password_length, char* password, char** plain) {
     int possibilties = pow(ALPHABET_SIZE, password_length);
