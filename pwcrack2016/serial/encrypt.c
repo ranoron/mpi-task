@@ -16,6 +16,8 @@
 
 #define ERROR -1
 
+// encripting the string data 
+
 char* encrypt_string(char* password);
 FILE* open_file(char* filename);
 void close_file(FILE* fp);
