@@ -1,3 +1,5 @@
+// all the libraries added here 
+
 #include <crypt.h>
 #include <mpi.h>
 #include <stdio.h>
