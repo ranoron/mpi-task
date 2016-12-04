@@ -67,6 +67,7 @@ int main(int argc, char **argv) {
         printf("%s encrypts to: %s\n", line, encrypt_string(line));
     } while (*line != '\0');
 
+//loop running untill end and closing file
     close_file(fp);
     if(line) free(line);
     return 0;
