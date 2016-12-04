@@ -31,6 +31,7 @@ FILE* open_file(char* filename) {
     return fp;
 }
 
+// if file is empty close file 
 void close_file(FILE* fp) {
     fclose(fp);
 }
