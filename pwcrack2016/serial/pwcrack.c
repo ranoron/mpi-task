@@ -28,6 +28,7 @@ const int ENCRYPTED_SIZE = 94;
 void decrypt_password(int, char*, char**);
 void read_line_in_file(FILE*, char**);
 
+// read special lines in file 
 
 void read_line_in_file(FILE* fp, char** line) {
     size_t len = 0;
