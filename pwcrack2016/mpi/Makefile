@@ -24,6 +24,9 @@ RM=rm
 # -O3 		means switch on all optimisations
 # -m64		means generate code for a 64 bit arch (remove if on a 32bit arch)
 #
+
+
+#add debug information for GDB.
 CFLAGS = -ggdb -Wall -Wextra -std=c99 -pedantic -m64
 
 LDLIBS = -lcrypt -lm
