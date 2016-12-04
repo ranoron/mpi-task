@@ -10,6 +10,8 @@
 #include <string.h>
 #include <unistd.h>
 
+
+//assigning variables 
 /* A salt is a two character string which adds some randomness to passwords. */
 const char* SALT = "$6$HP$";
 
