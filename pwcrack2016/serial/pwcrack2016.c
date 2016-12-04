@@ -63,6 +63,7 @@ void decrypt_password(const int password_length, char* password, char** plain) {
     return;
 }
 
+// escape charecters in selected cell 
 int main(int argc, char **argv) {
     if (argc < 3) {
         fprintf(stderr, "Usage: pwcrack n ciphertext\nn should be the number of characters in the password.\nRemember to escape $ characters in your shell\n");
